@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+  </head>
+
+
+      <div id="table">
+        <ol id="list_setting"><% @articles.each do |article| %>
+          <li>
+            <span class="list"><a href="#"><img src ="grayarrow.gif"></a></span>
+            <span class="title"><a href="http://<%= article[:url] %>" target="_blank" class="black"><%= article[:title] %></a></span>
+            <span class="link">(<%= article[:url] %>)</span><br>
+            <span class="comment"><%= article[:desc] %></span>
+
+          </li>
+          <% end %>
+        </ol>
+      </div>
+

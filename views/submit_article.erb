@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Submit News</title>
+
+    <link rel="stylesheet" href="<%= url('/styles.css') %>">
+  </head>
+
+      <div>
+        <form class ="basic-grey" action="/submit" method="post">
+        <label for="title">Article Title: </label>
+        <input type="text" name="title" id="title" value="<%= params[:title] %>" maxlength="100" /><br>
+        <label for="url">URL: </label>
+        <input type="text" name="url" id="url" value="<%= params[:url] %>" placeholder="www.google.com"/><br>
+        <label for="desc">Article Description: </label>
+        <textarea name="desc" id="desc" rows="5" cols="25" value="<%= params[:desc] %>" maxlength="250"></textarea><br>
+        <input type="submit" value="Submit Article" />
+        </form>
+      </div>

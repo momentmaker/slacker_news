@@ -1,0 +1,237 @@
+#wrapper{
+  max-width: 85%;
+  margin: 0 auto;
+  background: #f6f6ef;
+  max-height: 100%;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+#header {
+  background: #ff6600;
+  margin: 3px 3px 0px 1px;
+}
+
+#logo {
+  border: 1px solid white;
+  margin: 3px 0px -2px 2px;
+}
+
+#hacker_news {
+  font-size: 16px;
+}
+
+.nav {
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 0;
+}
+
+.nav li{
+  display: inline-block;
+  color: white;
+}
+
+#login {
+  font-size: 12px;
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+
+#table{
+  font-size: 10pt;
+  position: relative;
+  top: 5px;
+}
+
+#table .list {
+  font-size: 12px;
+  color: #828282;
+}
+
+#table .list ol li{
+  font-size: 12px;
+  background-color: #828282;
+}
+
+#list_setting{
+  padding-left: 30px;
+  color: #828282;
+}
+
+#table .title{
+  font-size: 12px;
+  position: relative;
+  left: 2px;
+}
+
+#table .link{
+  font-size: 8px;
+  position: relative;
+  left: 3px;
+  color: #828282;
+}
+
+#table .comment{
+  font-size: 8px;
+  position: relative;
+  left: 18px;
+  top: -5px;
+  color: #828282;
+}
+
+#separator {
+  background: #ff6600;
+  padding: 1px 1px;
+  margin: 20px 0 20px 0;
+}
+
+.footer {
+  font-size: 10px;
+  text-decoration: none;
+  color: #828282;
+  text-align: center;
+}
+
+.footer li{
+  display: inline-block;
+}
+
+#commentlist .title{
+  font-size: 12px;
+  position: relative;
+  color: #828282;
+}
+
+#commentlist .comment{
+  font-size: 10px;
+}
+
+#commentlist .reply{
+  font-size: 8px;
+}
+
+ul.comment {
+  list-style-image: url('https://news.ycombinator.com/grayarrow.gif');
+  padding-left: 25px;
+}
+
+#error {
+  font-size: 15px;
+  text-decoration: none;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  color: red;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+a.black:link {text-decoration: none; color: black}
+a.black:visited {text-decoration: none; color: black}
+a.black:active {text-decoration: none; color: black}
+a.black:hover {text-decoration: none; color: black}
+
+a.white:link {text-decoration: none; color: white}
+a.white:visited {text-decoration: none; color: white}
+a.white:active {text-decoration: none; color: white}
+a.white:hover {text-decoration: none; color: white}
+
+a.gray:link {text-decoration: none; color: #828282}
+a.gray:visited {text-decoration: none; color: #828282}
+a.gray:active {text-decoration: none; color: #828282}
+a.gray:hover {text-decoration: none; color: #828282}
+
