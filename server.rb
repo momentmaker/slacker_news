@@ -3,8 +3,15 @@ require 'sinatra/reloader'
 require 'pry'
 require 'csv'
 require 'net/http'
+require 'redis'
 
-
+def get_connection
+  if ENV.has_key?("REDISCLOUD_URL")
+    Redis.new(url: ENV["REDISCLOUD_URL"])
+  else
+    Redis.new
+  end
+end
 
 
 def get_articles()
